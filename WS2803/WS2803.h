@@ -84,6 +84,8 @@ void WS2803::show() {
 			SendByte(WS2803::Black.Blue);
 		}
 	}
+	
+	delayMicroseconds(600);
 }
 
 void WS2803::SendByte(unsigned char b) {
